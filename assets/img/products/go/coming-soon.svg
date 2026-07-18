@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#20242b"/>
+<g transform="translate(400,210)" fill="none" stroke="#f2954a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-70,-30 L0,-70 L70,-30" transform="scale(1.4)"></path><path d="M-70,-30 L-70,50 L0,80 L70,50 L70,-30" transform="scale(1.4)"></path><path d="M0,-70 L0,80" transform="scale(1.4)"></path>
+</g>
+<text x="400" y="360" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="26" fill="#f2954a">MABIT GO</text>
+<text x="400" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9aa0a6">Capturas disponibles próximamente</text>
+</svg>

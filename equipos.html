@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equipos y accesorios — Mabit</title>
+<link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="header-placeholder"></div>
+
+<main id="top">
+
+<section class="hero" style="padding-bottom:24px;">
+  <div class="container">
+    <span class="eyebrow d-inline-block mb-3">Equipos y accesorios</span>
+    <h1 class="display-6 mb-3">El hardware que completa tu <span class="text-teal">punto de venta</span>.</h1>
+    <p class="lead text-secondary mb-4" style="max-width:620px;">Balanzas, computadoras, lectores de código de barras y accesorios, listos para trabajar junto a Mabit Pro GE. Los precios son de referencia — escribinos para confirmar disponibilidad.</p>
+    <div class="d-flex align-items-start gap-3 p-4 rounded-4" style="background:var(--teal-tint);max-width:720px;">
+      <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width:42px;height:42px;background:var(--teal);">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1c1c1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6l8-4z"></path><path d="M9 12l2 2 4-4"></path></svg>
+      </div>
+      <p class="small mb-0" style="color:var(--teal-deep);">Estos equipos ya fueron probados junto a Mabit Pro GE. Garantizamos <strong>99% de estabilidad</strong> — no vas a tener problemas de lentitud ni fallas de compatibilidad con tu sistema.</p>
+    </div>
+  </div>
+</section>
+
+<section class="py-4 py-lg-5 border-top" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row g-4">
+      <div class="col-lg-3">
+        <div id="equipmentSidebar">
+          <div class="text-secondary small">Cargando categorías…</div>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="d-flex flex-column flex-sm-row gap-3 mb-4">
+          <input type="search" id="equipmentSearchInput" class="form-control form-control-lg flex-grow-1" placeholder="Buscar por nombre, código o descripción…">
+          <select id="equipmentSortSelect" class="form-select form-select-lg" style="max-width:220px;">
+            <option value="importance">Más vendidos</option>
+            <option value="price-asc">Precio: menor a mayor</option>
+            <option value="price-desc">Precio: mayor a menor</option>
+          </select>
+        </div>
+        <div id="equipmentContainer">
+          <div class="text-secondary small">Cargando catálogo…</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RECOMENDACIONES POR RUBRO (data: data/recommendations.js) -->
+<section class="py-5 py-lg-6 border-top" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row mb-4">
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">¿Qué necesita tu rubro?</span>
+        <h2 class="h3 mb-2">Te recomendamos según tu negocio.</h2>
+        <p class="text-secondary mb-0">No todos los rubros necesitan los mismos equipos — esto es solo una guía, cualquier duda te asesoramos.</p>
+      </div>
+    </div>
+    <div class="row g-4" id="recommendationsContainer">
+      <div class="text-secondary small">Cargando recomendaciones…</div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 text-center">
+  <div class="container">
+    <span class="eyebrow d-inline-block mb-2">¿Buscás algo específico?</span>
+    <h2 class="h3 mb-3">Contanos qué necesitás y te asesoramos.</h2>
+    <a href="https://wa.me/595986709035?text=Hola%2C%20quiero%20consultar%20por%20equipos%20y%20accesorios" target="_blank" rel="noopener" class="btn btn-teal btn-lg rounded-pill px-4">Consultar equipos</a>
+  </div>
+</section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+<!-- Carrito: botón flotante -->
+<button type="button" class="cart-float" data-open-cart aria-label="Ver carrito">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1c1c1e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.5 3h2l2.4 12.4a2 2 0 002 1.6h8.2a2 2 0 002-1.6L21 8H6"></path></svg>
+  <span class="cart-badge" id="cartBadge">0</span>
+</button>
+
+<!-- Carrito: modal -->
+<div class="mb-modal" id="cartModal">
+  <div class="mb-modal-panel p-3 p-md-4">
+    <div class="d-flex justify-content-between align-items-start mb-3">
+      <h3 class="h5 mb-0">Tu carrito</h3>
+      <button type="button" class="mb-modal-close" data-close-cart aria-label="Cerrar">&times;</button>
+    </div>
+    <div id="cartItems"></div>
+    <p class="text-white-50 small text-center py-3 mb-0" id="cartEmpty">Todavía no agregaste equipos al carrito.</p>
+    <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top" style="border-color:rgba(255,255,255,.1)!important;">
+      <span class="fw-semibold">Total</span>
+      <span class="fs-5 fw-bold text-teal" id="cartTotal">Gs. 0</span>
+    </div>
+    <form id="checkoutForm" class="mt-4">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label small text-white-50">Nombre completo</label>
+          <input type="text" class="form-control form-control-dark" placeholder="Tu nombre" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label small text-white-50">Teléfono</label>
+          <input type="tel" class="form-control form-control-dark" placeholder="0981 234 567" required>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-teal w-100 py-2 rounded-pill mt-4">Confirmar pedido por WhatsApp</button>
+    </form>
+  </div>
+</div>
+
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="fragments/header.js"></script>
+<script src="fragments/footer.js"></script>
+<script src="data/products.js"></script>
+<script src="data/team.js"></script>
+<script src="data/reviews.js"></script>
+<script src="data/need.js"></script>
+<script src="data/faq.js"></script>
+<script src="data/tech.js"></script>
+<script src="data/tutorials.js"></script>
+<script src="data/ads.js"></script>
+<script src="data/downloads.js"></script>
+<script src="data/blog.js"></script>
+<script src="data/equipment.js"></script>
+<script src="data/recommendations.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

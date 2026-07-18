@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#20242b"/>
+<g transform="translate(400,210)" fill="none" stroke="#4caf6d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+<path d="M-60,60 V-20 L0,-70 L60,-20 V60" transform="scale(1.1)"></path><path d="M-25,60 V10 H25 V60" transform="scale(1.1)"></path>
+</g>
+<text x="400" y="360" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="26" fill="#4caf6d">MABIT AGRO</text>
+<text x="400" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9aa0a6">Capturas disponibles próximamente</text>
+</svg>

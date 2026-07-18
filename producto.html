@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Producto — Mabit</title>
+<link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="header-placeholder"></div>
+
+<main id="top">
+<section class="py-5" style="padding-top:calc(var(--nav-height, 72px) + 32px)!important;">
+  <div class="container py-4">
+    <div id="productDetailContainer">
+      <div class="text-secondary small">Cargando producto…</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="footer-placeholder"></div>
+
+<!-- Carrito: botón flotante (mismo carrito que en equipos.html) -->
+<button type="button" class="cart-float" data-open-cart aria-label="Ver carrito">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1c1c1e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.5 3h2l2.4 12.4a2 2 0 002 1.6h8.2a2 2 0 002-1.6L21 8H6"></path></svg>
+  <span class="cart-badge" id="cartBadge">0</span>
+</button>
+
+<div class="mb-modal" id="cartModal">
+  <div class="mb-modal-panel p-3 p-md-4">
+    <div class="d-flex justify-content-between align-items-start mb-3">
+      <h3 class="h5 mb-0">Tu carrito</h3>
+      <button type="button" class="mb-modal-close" data-close-cart aria-label="Cerrar">&times;</button>
+    </div>
+    <div id="cartItems"></div>
+    <p class="text-white-50 small text-center py-3 mb-0" id="cartEmpty">Todavía no agregaste equipos al carrito.</p>
+    <div class="d-flex justify-content-between align-items-center mt-3 pt-3 border-top" style="border-color:rgba(255,255,255,.1)!important;">
+      <span class="fw-semibold">Total</span>
+      <span class="fs-5 fw-bold text-teal" id="cartTotal">Gs. 0</span>
+    </div>
+    <form id="checkoutForm" class="mt-4">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label class="form-label small text-white-50">Nombre completo</label>
+          <input type="text" class="form-control form-control-dark" placeholder="Tu nombre" required>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label small text-white-50">Teléfono</label>
+          <input type="tel" class="form-control form-control-dark" placeholder="0981 234 567" required>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-teal w-100 py-2 rounded-pill mt-4">Confirmar pedido por WhatsApp</button>
+    </form>
+  </div>
+</div>
+
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="fragments/header.js"></script>
+<script src="fragments/footer.js"></script>
+<script src="data/products.js"></script>
+<script src="data/team.js"></script>
+<script src="data/reviews.js"></script>
+<script src="data/need.js"></script>
+<script src="data/faq.js"></script>
+<script src="data/tech.js"></script>
+<script src="data/tutorials.js"></script>
+<script src="data/ads.js"></script>
+<script src="data/downloads.js"></script>
+<script src="data/blog.js"></script>
+<script src="data/equipment.js"></script>
+<script src="data/recommendations.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

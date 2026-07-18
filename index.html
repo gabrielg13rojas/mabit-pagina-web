@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mabit</title>
+<link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="header-placeholder"></div>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">Management with Bits</span>
+        <h1 class="display-5 mb-3">Cada <span class="text-teal">bit</span> cuenta en la gestión de tu empresa.</h1>
+        <p class="lead text-secondary mb-4" style="max-width:540px;">Somos un equipo paraguayo de profesionales apasionados por la tecnología, creando software que convierte los datos de tu negocio en decisiones claras — ventas, citas, envíos y producción. Nacimos en Paraguay y estamos listos para adaptarnos a empresas de toda LATAM, España y más allá.</p>
+        <div class="d-flex flex-wrap gap-3 mb-5">
+          <a href="#productos" class="btn btn-teal btn-lg rounded-pill px-4">Ver nuestros productos</a>
+          <a href="https://wa.me/595986709035" target="_blank" rel="noopener" class="btn btn-outline-custom btn-lg rounded-pill px-4">Escribinos por WhatsApp</a>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 g-3">
+          <div class="col stat"><b class="count-up" data-count="100" data-suffix="+">0</b><span>clientes activos</span></div>
+          <div class="col stat"><b class="count-up" data-count="4" data-pad="2">00</b><span>soluciones a medida</span></div>
+          <div class="col stat"><b class="count-up" data-count="100" data-suffix="%">0</b><span>desarrollado en Paraguay</span></div>
+          <div class="col stat"><b class="count-up" data-count="24" data-suffix="/7">0</b><span>datos siempre a mano</span></div>
+        </div>
+      </div>
+      <div class="col-lg-5 hero-visual">
+        <div class="orbit-ring r1"></div>
+        <div class="orbit-ring r2"></div>
+        <div class="orbit-logo"><img src="assets/img/logo/logo-500.png" class="img-fluid" alt="Logo Mabit"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEED / ACORDEÓN (data: data/need.js) -->
+<section class="section-dark py-5 py-lg-6">
+  <div class="container py-4">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-5">
+        <div class="position-lg-sticky" style="top:calc(var(--nav-height, 72px) + 24px);">
+          <img src="assets/img/need/devices-illustration.jpg" class="img-fluid rounded-4 shadow" alt="Mabit funcionando en monitor, tablet y celular — imagen de referencia">
+          <p class="text-white-50 small mt-2 mb-0 mono">imagen de referencia — reemplazable en assets/img/need/</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <span class="eyebrow text-teal d-inline-block mb-3">Diagnóstico rápido</span>
+        <h2 class="mb-3">¿Cómo saber que nos necesitas?</h2>
+        <p class="text-white-50 mb-4">Tocá cada pregunta: si respondiste "no lo sé" a alguna, tu negocio está generando información valiosa que hoy se está perdiendo. Así es como Mabit te responde.</p>
+        <div class="accordion accordion-dark" id="needAccordion">
+          <div class="text-white-50 small">Cargando preguntas…</div>
+        </div>
+        <div class="alert mt-4 border-0 d-flex align-items-center gap-3 flex-wrap" style="background:rgba(79,214,196,.12);">
+          <strong class="text-teal fs-5 mono">Mabit te responde.</strong>
+          <span class="text-white-50">Convertimos cada venta, cita y envío en un dato accionable para tu negocio.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-5 py-lg-6" id="about">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="flyer-frame">
+          <div class="d-flex gap-1 mb-2 ps-1">
+            <span class="rounded-circle" style="width:9px;height:9px;background:rgba(255,255,255,.2);display:inline-block;"></span>
+            <span class="rounded-circle" style="width:9px;height:9px;background:rgba(255,255,255,.2);display:inline-block;"></span>
+            <span class="rounded-circle" style="width:9px;height:9px;background:rgba(255,255,255,.2);display:inline-block;"></span>
+          </div>
+          <div class="flyer-slot loaded" id="flyerSlot">
+            <img id="flyerImg" src="assets/img/flyer-placeholder-devices.jpg" alt="Flyer Mabit — imagen de referencia, reemplazar por el flyer real">
+            <div class="flyer-placeholder">
+              <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"></rect><circle cx="8.5" cy="9.5" r="1.6"></circle><path d="M21 15l-5-5-9 9"></path></svg></div>
+              <p>Espacio reservado para el flyer de Mabit</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between mt-2 px-1 mono" style="font-size:.7rem;color:rgba(255,255,255,.5);">
+            <span>mabit_flyer.png</span><span>cargando…</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">Quiénes somos</span>
+        <h2 class="mb-3">De la contracción de "Management with Bits" nace Mabit.</h2>
+        <p class="text-secondary">Somos un equipo de profesionales apasionados por la tecnología, con años de experiencia desarrollando software y herramientas que optimizan procesos empresariales en Paraguay y la región.</p>
+        <p class="text-secondary">Nuestra misión es clara: crear herramientas intuitivas, eficientes y escalables que simplifiquen la administración empresarial. Nacimos en Paraguay y ya trabajamos con la mirada puesta en LATAM y España — nuestros sistemas son parametrizables y se adaptan a la normativa y el idioma de cada país.</p>
+        <p class="quote-block my-4">"En Mabit, unimos experiencia, dedicación y conocimiento para ofrecer soluciones innovadoras que transforman la gestión empresarial."</p>
+        <div class="row g-3 mb-4">
+          <div class="col-sm-6">
+            <div class="h-100 p-3 rounded-4" style="background:var(--teal-tint);">
+              <span class="mono small fw-semibold" style="color:var(--teal-deep);">MISIÓN</span>
+              <p class="mb-0 mt-2 small text-secondary">Crear herramientas de gestión intuitivas, eficientes y escalables que simplifiquen la administración de cualquier negocio, sin importar su rubro o tamaño.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="h-100 p-3 rounded-4" style="background:#eef0f0;">
+              <span class="mono small fw-semibold text-secondary">VISIÓN</span>
+              <p class="mb-0 mt-2 small text-secondary">Ser la plataforma de gestión de referencia en Paraguay y expandirnos a LATAM y España, llevando la misma calidad y cercanía a cada nuevo mercado.</p>
+            </div>
+          </div>
+        </div>
+        <span class="d-inline-block px-3 py-2 rounded-3 mono" style="background:var(--teal-tint);color:var(--teal-deep);font-size:.82rem;">¡Bienvenidos a Mabit, donde cada bit cuenta!</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NUESTRA HISTORIA (video de YouTube) -->
+<section class="py-5 border-top" id="historia" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-5">
+        <span class="eyebrow d-inline-block mb-3">Nuestra historia</span>
+        <h2 class="h3 mb-3">Así empezamos en 2016.</h2>
+        <p class="text-secondary mb-0">De una idea entre amigos apasionados por la tecnología a un equipo que hoy acompaña a más de 100 negocios en su gestión diaria. Mirá cómo arrancó todo.</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow">
+          <iframe src="https://www.youtube.com/embed/b_G53sHYhp4" title="Cómo empezamos en 2016 — Mabit" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NUESTRO EQUIPO (data: data/team.js) -->
+<section class="py-5 py-lg-6 border-top" id="equipo" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row mb-4">
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">La gente detrás de Mabit</span>
+        <h2 class="h3 mb-2">Nuestro equipo.</h2>
+        <p class="text-secondary mb-0">Las personas que desarrollan, implementan y acompañan cada proyecto de cerca.</p>
+      </div>
+    </div>
+    <div class="row g-4" id="teamContainer">
+      <div class="text-secondary small">Cargando equipo…</div>
+    </div>
+    <div class="mt-4 p-4 rounded-4 d-flex flex-wrap align-items-center justify-content-between gap-3" style="background:var(--charcoal);">
+      <div>
+        <span class="mono small fw-semibold text-teal d-block mb-1">¿TE SUMÁS?</span>
+        <p class="text-white-50 small mb-0">Siempre estamos buscando gente apasionada por la tecnología para sumar al equipo.</p>
+      </div>
+      <button type="button" class="btn btn-teal rounded-pill px-4 flex-shrink-0" data-open-careers>Trabajá con nosotros</button>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS (data: data/products.js) -->
+<section class="py-5 py-lg-6 border-top border-bottom" id="productos" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row mb-5">
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">Nuestras soluciones</span>
+        <h2 class="mb-3">Cuatro productos, un mismo criterio de gestión.</h2>
+        <p class="text-secondary">Cada plataforma de Mabit está pensada para un área específica de tu negocio, con el mismo estándar de calidad y soporte local.</p>
+      </div>
+    </div>
+    <div id="productsContainer">
+      <div class="text-secondary small">Cargando productos…</div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEOS PUBLICITARIOS (data: data/ads.js) -->
+<section class="py-5 py-lg-6 border-bottom" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row mb-4">
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">En video</span>
+        <h2 class="h3 mb-2">Videos publicitarios.</h2>
+        <p class="text-secondary mb-0">Mirá a Mabit en acción — piezas cortas pensadas para redes.</p>
+      </div>
+    </div>
+    <div class="row g-4" id="adsContainer">
+      <div class="text-secondary small">Cargando videos…</div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEÑAS (data: data/reviews.js) — SIEMPRE carrusel, mínimo 3 visibles -->
+<section class="py-5 py-lg-6" id="reseñas">
+  <div class="container py-4">
+    <div class="text-center mx-auto mb-5" style="max-width:640px;">
+      <span class="eyebrow d-inline-block mb-2">Reseñas</span>
+      <h2>Lo que dicen quienes ya gestionan con Mabit.</h2>
+    </div>
+    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+      <div class="carousel-inner" id="reviewsInner">
+        <div class="text-secondary small">Cargando reseñas…</div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center gap-4 mt-4">
+        <button class="carousel-control-prev position-static" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <div class="carousel-indicators position-static m-0" id="reviewsIndicators"></div>
+        <button class="carousel-control-next position-static" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ (data: data/faq.js) -->
+<section class="py-5 py-lg-6 border-top" id="faq" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <span class="eyebrow d-inline-block mb-2">Preguntas frecuentes</span>
+        <h2 class="mb-3">Todo lo que necesitás saber antes de empezar.</h2>
+        <p class="text-secondary">Si tenés otra duda, escribinos por WhatsApp al +595 986 709 035 y te respondemos directamente.</p>
+      </div>
+      <div class="col-lg-8">
+        <div class="accordion" id="faqAccordion">
+          <div class="text-secondary small">Cargando preguntas…</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÁS QUE SOFTWARE: aliado de las empresas -->
+<section class="py-5 py-lg-6 border-top" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row mb-4">
+      <div class="col-lg-7">
+        <span class="eyebrow d-inline-block mb-3">Más que software</span>
+        <h2 class="h3 mb-2">Somos aliados de tu empresa, no solo un proveedor.</h2>
+        <p class="text-secondary mb-0">Además de nuestros productos, ayudamos a que tu negocio crezca de forma integral — desde antes de instalar el sistema y mucho después.</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      <div class="col">
+        <div class="h-100 p-4 rounded-4" style="background:#fff;box-shadow:0 20px 40px -28px rgba(0,0,0,.25);">
+          <span class="mono small fw-semibold" style="color:var(--teal-deep);">CONSULTORÍA</span>
+          <p class="text-secondary small mb-0 mt-2">Analizamos tus procesos y te ayudamos a definir la mejor forma de digitalizar tu gestión.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="h-100 p-4 rounded-4" style="background:#fff;box-shadow:0 20px 40px -28px rgba(0,0,0,.25);">
+          <span class="mono small fw-semibold" style="color:var(--teal-deep);">INFRAESTRUCTURA DE REDES</span>
+          <p class="text-secondary small mb-0 mt-2">Armamos y dejamos funcionando la red de tu local o sucursal para que el sistema corra sin problemas.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="h-100 p-4 rounded-4" style="background:#fff;box-shadow:0 20px 40px -28px rgba(0,0,0,.25);">
+          <span class="mono small fw-semibold" style="color:var(--teal-deep);">MARKETING</span>
+          <p class="text-secondary small mb-0 mt-2">Te ayudamos a promocionar tu negocio: redes sociales, piezas gráficas y presencia digital.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="h-100 p-4 rounded-4" style="background:#fff;box-shadow:0 20px 40px -28px rgba(0,0,0,.25);">
+          <span class="mono small fw-semibold" style="color:var(--teal-deep);">CRECIMIENTO CONTINUO</span>
+          <p class="text-secondary small mb-0 mt-2">No te dejamos solo después de instalar el sistema: seguimos cerca, acompañándote para que tu negocio siga creciendo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section-dark py-5 py-lg-6" id="contacto">
+  <div class="container py-4">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <span class="eyebrow text-teal d-inline-block mb-2">Contacto</span>
+        <h2 class="mb-3">Conversemos sobre tu negocio.</h2>
+        <p class="text-white-50 mb-4" style="max-width:440px;">Contanos qué necesitás gestionar y te mostramos cuál de nuestras soluciones encaja mejor. Respondemos rápido, siempre en español, desde Paraguay y con miras a toda LATAM y España.</p>
+        <div class="d-flex flex-column gap-3">
+          <a class="contact-method d-flex align-items-center gap-3 p-3 text-white text-decoration-none" href="tel:+595986709035">
+            <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width:42px;height:42px;background:rgba(79,214,196,.15);">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#4fd6c4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"></path></svg>
+            </div>
+            <div><b class="d-block">Teléfono / WhatsApp</b><span class="mono text-white-50 small">+595 986 709 035</span></div>
+          </a>
+          <a class="contact-method d-flex align-items-center gap-3 p-3 text-white text-decoration-none" href="mailto:info@mabit.com.py">
+            <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width:42px;height:42px;background:rgba(79,214,196,.15);">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#4fd6c4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="M22 6l-10 7L2 6"></path></svg>
+            </div>
+            <div><b class="d-block">Correo electrónico</b><span class="mono text-white-50 small">info@mabit.com.py</span></div>
+          </a>
+          <a class="contact-method d-flex align-items-center gap-3 p-3 text-white text-decoration-none" href="https://citas.mabit.com.py/" target="_blank" rel="noopener">
+            <div class="d-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width:42px;height:42px;background:rgba(79,214,196,.15);">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#4fd6c4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"></rect><path d="M16 2v4M8 2v4M3 10h18"></path></svg>
+            </div>
+            <div><b class="d-block">Mabit Citas — plataforma</b><span class="mono text-white-50 small">citas.mabit.com.py</span></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-4 p-md-5 rounded-4" style="background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);">
+          <h3 class="h5 mb-4">Contanos sobre tu negocio</h3>
+          <form id="contactForm">
+            <div class="mb-3"><label class="form-label small text-white-50">Nombre completo</label><input type="text" class="form-control form-control-dark" placeholder="Tu nombre" required></div>
+            <div class="mb-3"><label class="form-label small text-white-50">Correo electrónico</label><input type="email" class="form-control form-control-dark" placeholder="tucorreo@empresa.com" required></div>
+            <div class="mb-3"><label class="form-label small text-white-50">Producto de interés</label>
+              <select class="form-select form-control-dark">
+                <option>Mabit Pro GE</option>
+                <option>Mabit Citas</option>
+                <option>Mabit Go (próximamente)</option>
+                <option>Mabit Agro (próximamente)</option>
+                <option>Aún no lo sé</option>
+              </select>
+            </div>
+            <div class="mb-3"><label class="form-label small text-white-50">Contanos brevemente qué necesitás</label><textarea class="form-control form-control-dark" rows="3" placeholder="Ej: quiero controlar mis ventas y stock en una sola pantalla"></textarea></div>
+            <button type="submit" class="btn btn-teal w-100 py-2 rounded-pill">Enviar consulta</button>
+            <p class="text-center text-white-50 small mt-3 mb-0">También podés escribirnos directo al +595 986 709 035</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK TECNOLÓGICO (data: data/tech.js) — al final, antes del pie -->
+<section class="py-5 py-lg-6 border-top" style="border-color:rgba(0,0,0,.08)!important;">
+  <div class="container py-4">
+    <div class="row align-items-center mb-4">
+      <div class="col-lg-8">
+        <span class="eyebrow d-inline-block mb-2">Bajo el capó</span>
+        <h3 class="mb-2">Tecnología robusta detrás de cada producto Mabit.</h3>
+        <p class="text-secondary mb-0">Herramientas probadas en producción, para que tu operación no dependa de experimentos.</p>
+      </div>
+    </div>
+    <div id="techCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="2800">
+      <div class="carousel-inner" id="techInner">
+        <div class="text-secondary small">Cargando stack…</div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#techCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+      <button class="carousel-control-next" type="button" data-bs-target="#techCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+      <div class="carousel-indicators position-static mt-3" id="techIndicators"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+<script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="fragments/header.js"></script>
+<script src="fragments/footer.js"></script>
+<script src="data/products.js"></script>
+<script src="data/team.js"></script>
+<script src="data/reviews.js"></script>
+<script src="data/need.js"></script>
+<script src="data/faq.js"></script>
+<script src="data/tech.js"></script>
+<script src="data/tutorials.js"></script>
+<script src="data/ads.js"></script>
+<script src="data/downloads.js"></script>
+<script src="data/blog.js"></script>
+<script src="data/equipment.js"></script>
+<script src="data/recommendations.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

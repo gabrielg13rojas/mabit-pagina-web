@@ -70,7 +70,7 @@
 	       "title": "Gran noticia kp",
 	       "date": isoDaysAgo(300),
 	       "author": "Equipo Mabit",
-	       "text": "BLA BLA BLA BLA",
+	       "text": "blo blo blo",
 	       "photo": "assets/img/blog/placeholder-3.jpg"
     },
     {

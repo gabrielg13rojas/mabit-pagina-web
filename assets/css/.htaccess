@@ -1,8 +1,0 @@
-# Los archivos de esta carpeta cambian seguido (son tu contenido:
-# productos, noticias, precios, etc). Le decimos al navegador que
-# nunca los guarde en caché, para que cada edición se vea al instante.
-<IfModule mod_headers.c>
-  Header set Cache-Control "no-cache, no-store, must-revalidate"
-  Header set Pragma "no-cache"
-  Header set Expires 0
-</IfModule>

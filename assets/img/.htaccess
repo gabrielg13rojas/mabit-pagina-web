@@ -1,0 +1,6 @@
+# Las imágenes tampoco cambian todo el tiempo (y cuando subís una
+# nueva, normalmente es un archivo nuevo con otro nombre). Cache
+# larga acá también, para que el sitio cargue más rápido.
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=2592000"
+</IfModule>

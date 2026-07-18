@@ -76,7 +76,7 @@ function initCounters() {
 function initFlyer() {
   // Por defecto se muestra una imagen de referencia (monitor + tablet + celular).
   // Cuando tengas el flyer real, poné su ruta acá, ej: "assets/img/flyer/mabit-flyer.jpg"
-  const FLYER_SRC = "";
+  const FLYER_SRC = "assets/img/flyer/mujer-oficina.avif";
   const img = document.getElementById("flyerImg");
   const slot = document.getElementById("flyerSlot");
   if (!img || !slot || !FLYER_SRC) return;

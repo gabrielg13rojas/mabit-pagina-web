@@ -28,7 +28,7 @@ window.MABIT_DATA.products = [
         "Actualizaciones sin costo adicional"
       ],
       "installNote": "La instalación tiene un costo aparte según la cantidad de terminales y la complejidad del trabajo — te lo pasamos en privado, a medida.",
-      "extra": "¿Sos emprendedor? Tenemos descuentos especiales. ¿Ya usás otro sistema? Te migramos los datos sin costo.",
+      "extra": "¿Sos emprendedor? Tenemos descuentos especiales. ¿Ya usás otro sistema? Te migramos los datos sin problemas.",
       "cta": "Este precio es solo una referencia — escribinos y conversamos según tu caso."
     },
     "actions": [
@@ -43,7 +43,7 @@ window.MABIT_DATA.products = [
     "id": "citas",
     "code": "02 — Agenda & Turnos",
     "name": "Mabit Citas",
-    "tagline": "Control de citas y turnos: agenda online, recordatorios y disponibilidad en tiempo real.",
+    "tagline": "Control de citas y turnos: agenda online, recordatorios por WhatsApp y disponibilidad en tiempo real.",
     "status": "live",
     "note": "Pensado para clínicas, salones y estudios que gestionan turnos todos los días.",
     "images": [
@@ -52,16 +52,16 @@ window.MABIT_DATA.products = [
     ],
     "pricing": {
       "currency": "Gs.",
-      "monthly": 300000,
-      "annual": 3000000,
+      "monthly": 100000,
+      "annual": 1000000,
       "unit": "por negocio",
       "includes": [
-        "Sin límites de usuarios ni de citas agendadas",
+        "Hasta 5 usuarios y sin límites de citas agendadas",
         "Asistencia técnica incluida",
         "Actualizaciones sin costo adicional"
       ],
-      "installNote": "La instalación tiene un costo aparte según la complejidad del trabajo — te lo pasamos en privado, a medida.",
-      "extra": "¿Sos emprendedor? Tenemos descuentos especiales. ¿Ya usás otro sistema? Te migramos los datos sin costo.",
+      "installNote": "No se requiere instalar nada. El costo del despliegue es Gs. 500.000 (pago por única vez)",
+      "extra": "¿Sos emprendedor? Tenemos descuentos especiales.",
       "cta": "Este precio es solo una referencia — escribinos y conversamos según tu caso."
     },
     "actions": [

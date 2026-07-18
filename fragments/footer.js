@@ -10,7 +10,7 @@ window.MABIT_FRAGMENTS.footer = `
           <img src="assets/img/logo/logo-240.png" width="30" alt="Mabit">
           <span class="fw-bold">MABIT</span>
         </div>
-        <p class="text-white-50 small" style="max-width:280px;">Management with Bits. Software de gestión hecho en Paraguay, listo para adaptarse a toda LATAM y España.</p>
+        <p class="text-white-50 small" style="max-width:280px;">Management with Bits. Software de gestión hecho en Paraguay, listo para adaptarse a tu empresa.</p>
       </div>
       <div class="col-md-2 col-6 mb-4 mb-md-0">
         <h4 class="h6 mb-3">Productos</h4>
@@ -37,8 +37,8 @@ window.MABIT_FRAGMENTS.footer = `
       </div>
     </div>
     <div class="d-flex justify-content-between flex-wrap gap-2 mono small text-white-50">
-      <span>© <span id="currentYear">2026</span> Mabit — donde cada bit cuenta.</span>
-      <span>Asunción, Paraguay</span>
+      <span>© <span id="currentYear">2026</span> Mabit — Reservados todos los derechos.</span>
+      <span>Curuguaty, Canindeyú-Paraguay</span>
     </div>
   </div>
 </footer>

@@ -6,8 +6,6 @@
    y foto por los datos reales de tu equipo (ver assets/img/team/README.txt). */
 window.MABIT_DATA = window.MABIT_DATA || {};
 window.MABIT_DATA.team = [
-  { "name": "Reemplazar Nombre", "role": "Desarrollo de software", "photo": "assets/img/team/placeholder.svg" },
-  { "name": "Reemplazar Nombre", "role": "Implementación y soporte", "photo": "assets/img/team/placeholder.svg" },
-  { "name": "Reemplazar Nombre", "role": "Diseño y experiencia de usuario", "photo": "assets/img/team/placeholder.svg" },
-  { "name": "Reemplazar Nombre", "role": "Ventas y atención al cliente", "photo": "assets/img/team/placeholder.svg" }
+  { "name": "MSc. Gabriel González Rojas", "role": "CEO Fundador & Desarrollador de software", "photo": "assets/img/team/gabriel.jpg" },
+  { "name": "MSc. María Raquel Garcete G.", "role": "Co-Fundadora, Finanzas y atención al cliente", "photo": "assets/img/team/mariaraquel.png" },
 ];

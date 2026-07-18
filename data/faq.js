@@ -9,11 +9,11 @@ window.MABIT_DATA.faq = [
   },
   {
     "question": "¿Trabajan con empresas fuera de Paraguay?",
-    "answer": "Sí. Nacimos en Paraguay, pero nuestros sistemas son parametrizables y se adaptan a la normativa fiscal e idioma de otros países de LATAM, España, o donde se encuentre tu negocio."
+    "answer": "Sí. Nacimos en Paraguay, pero nuestros sistemas son parametrizables y se adaptan a la normativa fiscal de otros países."
   },
   {
     "question": "¿Los sistemas de Mabit funcionan en la nube o de forma local?",
-    "answer": "Ofrecemos ambas modalidades según la necesidad de cada negocio: acceso en la nube desde cualquier dispositivo, o instalación local para mayor control interno."
+    "answer": "Depende. Mabit Pro GE es híbrido, es decir, en parte escritorio pero con funcionalidades esenciales para dispositivos móviles, el resto de los productos pueden ser en la nube o instalar de forma local, ya depende del cliente. Ofrecemos ambas modalidades según la necesidad de cada negocio: acceso en la nube desde cualquier dispositivo, o instalación local para mayor control interno."
   },
   {
     "question": "¿Puedo probar Mabit Citas antes de contratar?",

@@ -63,6 +63,15 @@
       "author": "Equipo Mabit",
       "text": "Un tercer ejemplo para que veas cómo se ve el filtro por categoría funcionando con distintos tipos de contenido.",
       "photo": "assets/img/blog/placeholder-3.jpg"
+    },	  
+	{
+	       "id": "convenio",
+	       "category": "Noticia",
+	       "title": "Gran noticia kp",
+	       "date": isoDaysAgo(300),
+	       "author": "Equipo Mabit",
+	       "text": "BLA BLA BLA BLA",
+	       "photo": "assets/img/blog/placeholder-3.jpg"
     },
     {
       "id": "articulo-del-anio-pasado",

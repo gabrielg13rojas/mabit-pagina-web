@@ -58,5 +58,15 @@ window.MABIT_DATA.equipment = [
     "gallery": ["assets/img/equipment/cajon-monedero.jpg"],
     "category": "Accesorios",
     "importance": 3
+  },
+  {
+    "code": "ACC-002",
+    "name": "Cajón monedero",
+    "description": "Cajón de caja con apertura automática desde Mabit Pro GE.",
+    "price": 380000,
+    "photo": "assets/img/equipment/cajon-monedero.jpg",
+    "gallery": ["assets/img/equipment/cajon-monedero.jpg"],
+    "category": "Accesorios",
+    "importance": 3
   }
 ];

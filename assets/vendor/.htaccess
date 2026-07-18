@@ -1,0 +1,5 @@
+# Bootstrap casi no cambia nunca: acá sí dejamos que el navegador
+# guarde una copia por mucho tiempo (el sitio carga más rápido).
+<IfModule mod_headers.c>
+  Header set Cache-Control "public, max-age=2592000"
+</IfModule>
